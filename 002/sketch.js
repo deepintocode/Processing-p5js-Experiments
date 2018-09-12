@@ -1,0 +1,64 @@
+function setup() {
+    createCanvas(1024, 768);
+    background(75, 78, 67);
+    noStroke();
+}
+
+function draw() {
+    fill(38, 49, 41);
+    triangle(0, 0, 0, 76, 82, 0);
+    fill(42, 51, 44);
+    triangle(489, 218, 854, -100, 1024, 140);
+    fill(20, 21, 16);
+    triangle(46, 163, 610, -100, 691, 179);    
+    fill(21, 28, 20);
+    triangle(195, 179, 371, -100, 522, 185);
+    fill(40, 69, 57);
+    triangle(245, 0, 0, 309, 494, 330);
+    fill(46, 48, 39);
+    triangle(0, 0, 0, 41, 36, 0);
+    fill(18, 16, 11);
+    beginShape();
+      vertex(0, 80);
+      vertex(83, 0);
+      vertex(140, 0);
+      vertex(0, 145);
+    endShape(CLOSE);
+    fill(25, 42, 31);
+    beginShape();
+      vertex(0, 148);
+      vertex(143, 0);
+      vertex(245, 0);
+      vertex(126, 174);
+    endShape(CLOSE);
+    fill(80, 82, 69);
+    triangle(305, 560, 0, 768, 410, 768);
+    fill(65, 59, 46);
+    ellipse(271, 697, 65, 65);
+    fill(44, 60, 49);
+    rect(260, 665, 20, 63);
+    fill(38, 57, 43);
+    triangle(59, 431, 53, 695, 427, 425);
+    fill(55, 50, 42);
+    triangle(0, 476, 80, 476, 0, 768);
+    fill(30, 78, 45);
+    triangle(824, 766, 691, 427, 1024, 540);
+    fill(30, 68, 45);
+    triangle(603, 704, 510, 605, 1024, 310);
+    fill(30, 58, 45);
+    triangle(380, 679, 234, 280, 1024, 420);
+    fill(40, 63, 54);
+    rect(160, 135, 890, 300);
+    fill(57, 62, 49);
+    ellipse(310, 336, 110, 110);
+    fill(90, 77, 65);
+    ellipse(280, 336, 110, 110);
+    fill(52, 70, 62);
+    ellipse(290, 320, 65, 65);
+    fill(39.2, 58, 44);
+    rect(0, 95, 168, 390);
+    fill(64, 73, 65);
+    rect(656, 102, 174, 393);
+    fill(43, 69, 65);
+    rect(496, 102, 174, 393);
+}
