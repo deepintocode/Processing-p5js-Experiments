@@ -29,5 +29,4 @@ function setup() {
       rect(i + 10, height - 20 - random(20, 40) - j, 60, 20);
     }
   }
-  saveCanvas('autobahn', 'jpg');
 }
